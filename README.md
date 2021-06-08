@@ -60,7 +60,7 @@ will output: ```This dish contains vitamin d.```
 ## Conditionals
 If-else statements are used like in the following example where _entity=meat_ and _constraint=less_:
 ```
-if explanation.constraint == 'greater'
+if explanation.constraint == 'less'
 	|You ate too much,
 	|enough 
 else 
