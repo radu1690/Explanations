@@ -1,0 +1,157 @@
+{
+  "AnimalLipid": {
+    "cons_en": [
+      "increment of cardiovascular disease risk",
+      "increment of cholesterol in the blood",
+      "increment of obesity risk"
+    ],
+    "cons_it": [
+      "all'aumento del rischio di malattie cardiache",
+      "all'aumento del colesterolo nel sangue",
+      "all'aumento del rischio di obesità"
+    ]
+  },
+  
+  "SaturatedLipid": {
+    "cons_en": [
+      "increment of cardiovascular disease risk",
+      "increment of degenerative and chronical disease risk",
+      "increment of heart attack risk"
+    ],
+    "cons_it": [
+      "all'aumento del rischio di malattie cardiache",
+      "all'aumento del rischio di malattie degenative croniche",
+      "all'aumento del rischio di infarto"
+    ]
+  },
+  
+  "Sucrose": {
+    "cons_en": [
+      "increment of obesity risk",
+      "increment of diabets risk",
+      "increment of caries"
+    ],
+    "cons_it": [
+      "all'aumento del rischio di obesità",
+      "all'aumento del rischio di diabete di tipo 2",
+      "all'insorgenza della carie"
+    ]
+  },
+  "MonounsaturatedLipid": {
+    "cons_en": [],
+    "cons_it": [
+      "a non aumentare il colesterolo LDL nel sangue",
+      "a dare, come l'acido oleico, benefici al nostro organismo"
+    ]
+  },
+  "Cholesterol": {
+    "cons_en": [
+      "increment of cardiovascular disease risk",
+      "the decline of cognitive functions"
+    ],
+    "cons_it": [
+      "all'aumento del rischio di malattie vascolari",
+      "al declino di funzionalità cognitive"
+    ]
+  },
+  "AnimalProtein": {
+    "cons_it": [
+      "all'insorgenza di infiammazioni intestinali",
+      "all'aumento del rischio di malattie tumorali",
+      "all'aumento di problemi artritici"
+    ],
+    "cons_en": [
+      "intestinal inflammation",
+      "the increment of cancer risk",
+      "the increment of arthritic problems"
+    ]
+  },
+  "VitaminE": {
+    "cons_it": [
+      "a proteggere le cellule dai radicali liberi",
+      "ad aumentare le difese immunitarie",
+      "il corpo esercitando un'azione antiossidante",
+      "il corpo a eserciare un'azione protettiva contro malattie degenerative"
+    ],
+    "cons_en": [
+      "to reduce aging cells",
+      "to protect cells against free radicals",
+      "to increase immuno defences"
+    ]
+  },
+  "VitaminA": {
+    "cons_it": [
+      "a proteggere le cellule dai radicali liberi",
+      "ad aumentare le difese immunitarie",
+      "a migliorare funzionalità come la vista!"
+    ],
+    "cons_en": [
+      "to reduce aging cells",
+      "to protect cells against free radicals",
+      "to increase immuno defences"
+    ]
+  },
+  "VitaminC": {
+    "cons_it": [
+      "il nostro corpo a far assorbire il ferro presente negli alimenti",
+      "a constrastare lo stress",
+       "ad aumentare le difese immunitarie",
+      "a fornire energia al tuo organismo",
+      "a favorire l'umore"
+    ],
+    "cons_en": [
+      "to reduce aging cells",
+      "to protect cells against free radicals",
+      "to increase immuno defences"
+    ]
+  },
+  "PolyunsaturatedLipid": {
+    "cons_it": [
+      ", come gli acidi omega 3, a migliorare le funzionalità del cervello",
+      ", come gli acidi omega 3, a contrastare lo stress",
+      ", come gli acidi omega 3, a migliorare le funzionalità della tiroide",
+      ", come gli acidi omega 6, a ridurre i livelli di colesterolo'"
+    ],
+    "cons_en": [
+      "intestinal inflammation",
+      "the increment of cancer risk",
+      "the increment of overweight and obesity risks",
+      "the increment of arthritic problems"
+    ]
+  },
+  "DietaryFiber": {
+    "cons_it": [
+      "a ridurre le infiammazioni intestinali",
+      "a raggiungere facilmente la sensazione di sazietà", "a controllare meglio i livelli di glicemia", "a regolare il transito intestinale"
+    ],
+    "cons_en": [
+      "to reduce intestinal inflammation",
+      "to be easily satiated",
+      "to control better level of glycemia","to regulate intestinal transit"]
+  },
+  "Carbs": {
+     "cons_it": ["a dare energia al tuo organismo"],
+     "cons_en": ["to give energy to your body"]
+  },
+  "Iron": {
+    	"cons_it": ["al corretto funzionamento dell'organismo"],
+ 	   "cons_en": ["the correct functioning of body"]
+  },  
+  "Mineral": {
+    	"cons_it": ["al corretto funzionamento dell'organismo"],
+ 	   "cons_en": ["the correct functioning of body"]
+  },
+  "FolicAcid": {
+	   "cons_it": ["a prevenire l'anemia", "a trasformare le proteine in energia", "il funzionaemnto del sistema nervoso", "a prevenire stati depressivi", "a mantenere la salute mentale"],
+ 	   "cons_en": ["to prevent anemy disease", "to transorm protein in energy","nervous system functioning", "to prevent depressive period", "to maintain mental health"]
+  },
+  "Magnesium": {
+   	   "cons_it": ["a combattere lo stress", "la salute delle ossa e i denti", "ad assimilare le vitamine", "ad affrontare stati di stanchezza psicofisica"],
+ 	   "cons_en": ["to address stress period", "helath of bones and teeth", "to absorb vitamins", "to address period of psicophisic fatigue"]
+  },
+  
+   "Tryptophan": {
+    "cons_it": ["innalzare i livelli di serotonina e a renderti più felice", "a produrre serotonina e ad aumentare il buon umore"],
+    "cons_en": ["to increase levels of seretonin and make you happy","to produce serotonin and to improve your mood"]
+  }
+}

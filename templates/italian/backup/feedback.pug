@@ -1,0 +1,17 @@
+if explanation.timing == 'Day'
+	|Oggi
+if explanation.timing == 'Week'
+	|Questa settimana
+if explanation.constraint == 'greater'
+	|non hai consumato abbastanza
+if explanation.constraint == 'less'
+	|hai consumato in grande quantità
+|!{ explanation.entity } 
+|(
+|!{ explanation.quantity } 
+if explanation.constraint == 'greater'
+	|su un minimo di
+if explanation.constraint == 'less'
+	|su un massimo di
+|!{ explanation.expectedQuantity } 
+|).

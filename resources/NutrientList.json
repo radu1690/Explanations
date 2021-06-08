@@ -1,0 +1,1092 @@
+{
+	"LauricAcid": [
+		{
+			"langCode": "it",
+			"label": "Acido Laurico",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Lauric Acid",
+			"alternateLabels": []
+		}
+	],
+	"PalmiticAcid": [
+		{
+			"langCode": "it",
+			"label": "Acido Palmitico",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Palmitic Acid",
+			"alternateLabels": []
+		}
+	],
+	"Sucrose": [
+		{
+			"langCode": "it",
+			"label": "Saccarosio",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Sucrose",
+			"alternateLabels": []
+		}
+	],
+	"Alcohol": [
+		{
+			"langCode": "en",
+			"label": "Alcohol",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "it",
+			"label": "Alcool",
+			"alternateLabels": []
+		}
+	],
+	"Glucose": [
+		{
+			"langCode": "en",
+			"label": "Glucose",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "it",
+			"label": "Glucosio",
+			"alternateLabels": []
+		}
+	],
+	"MonounsaturatedLipid": [
+		{
+			"langCode": "it",
+			"label": "Grassi Monoinsaturi",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Monounsaturated Fat",
+			"alternateLabels": []
+		}
+	],
+	"Histidine": [
+		{
+			"langCode": "en",
+			"label": "Histidine",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "it",
+			"label": "Istidina",
+			"alternateLabels": []
+		}
+	],
+	"PolyunsaturatedLipid": [
+		{
+			"langCode": "it",
+			"label": "Grassi Polinsaturi",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Polyunsaturated Fat",
+			"alternateLabels": []
+		}
+	],
+	"LinoleicAcid": [
+		{
+			"langCode": "it",
+			"label": "Acido Linoleico",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Linoleic Acid",
+			"alternateLabels": []
+		}
+	],
+	"EPAAcid": [
+		{
+			"langCode": "it",
+			"label": "Acido EPA",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "EPA Acid",
+			"alternateLabels": []
+		}
+	],
+	"PalmitoleicAcid": [
+		{
+			"langCode": "it",
+			"label": "Acido Palmitoleico",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Palmitoleic Acid",
+			"alternateLabels": []
+		}
+	],
+	"Magnesium": [
+		{
+			"langCode": "it",
+			"label": "Magnesio",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Magnesium",
+			"alternateLabels": []
+		}
+	],
+	"Selenium": [
+		{
+			"langCode": "it",
+			"label": "Selenio",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Selenium",
+			"alternateLabels": []
+		}
+	],
+	"Copper": [
+		{
+			"langCode": "en",
+			"label": "Copper",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "it",
+			"label": "Rame",
+			"alternateLabels": []
+		}
+	],
+	"MyristicAcid": [
+		{
+			"langCode": "it",
+			"label": "Acido Miristico",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Myristic Acid",
+			"alternateLabels": []
+		}
+	],
+	"Iodine": [
+		{
+			"langCode": "en",
+			"label": "Iodine",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "it",
+			"label": "Iodio",
+			"alternateLabels": []
+		}
+	],
+	"OtherPolyunsaturatedLipid": [
+		{
+			"langCode": "it",
+			"label": "Altri Grassi Polinsaturi",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Other Polyunsaturated Fat",
+			"alternateLabels": []
+		}
+	],
+	"Tyrosine": [
+		{
+			"langCode": "it",
+			"label": "Tirosina",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Tyrosine",
+			"alternateLabels": []
+		}
+	],
+	"VitaminA": [
+		{
+			"langCode": "en",
+			"label": "Vitamin A",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "it",
+			"label": "Vitamina A",
+			"alternateLabels": []
+		}
+	],
+	"AnimalProtein": [
+		{
+			"langCode": "en",
+			"label": "Animal Protein",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "it",
+			"label": "Proteine Animali",
+			"alternateLabels": []
+		}
+	],
+	"ArachidicAcid": [
+		{
+			"langCode": "it",
+			"label": "Acido Arachidico",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Arachidic Acid",
+			"alternateLabels": []
+		}
+	],
+	"ErucicAcid": [
+		{
+			"langCode": "it",
+			"label": "Acido Erucico",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Erucic Acid",
+			"alternateLabels": []
+		}
+	],
+	"Threonine": [
+		{
+			"langCode": "en",
+			"label": "Threonine",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "it",
+			"label": "Treonina",
+			"alternateLabels": []
+		}
+	],
+	"Methionine": [
+		{
+			"langCode": "en",
+			"label": "Methionine",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "it",
+			"label": "Metionina",
+			"alternateLabels": []
+		}
+	],
+	"Biotin": [
+		{
+			"langCode": "en",
+			"label": "Biotin",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "it",
+			"label": "Biotina",
+			"alternateLabels": []
+		}
+	],
+	"Maltose": [
+		{
+			"langCode": "en",
+			"label": "Maltose",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "it",
+			"label": "Maltosio",
+			"alternateLabels": []
+		}
+	],
+	"PantothenicAcid": [
+		{
+			"langCode": "it",
+			"label": "Acido Pantotenico",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Pantothenic Acid",
+			"alternateLabels": []
+		}
+	],
+	"VitaminB12": [
+		{
+			"langCode": "en",
+			"label": "Vitamin B12",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "it",
+			"label": "Vitamina B12",
+			"alternateLabels": []
+		}
+	],
+	"DHAAcid": [
+		{
+			"langCode": "it",
+			"label": "Acido DHA",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "DHA Acid",
+			"alternateLabels": []
+		}
+	],
+	"Niacin": [
+		{
+			"langCode": "en",
+			"label": "Niacin",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "it",
+			"label": "Niacina",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Vitamin B3",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "it",
+			"label": "Vitamina B3",
+			"alternateLabels": []
+		}
+	],
+	"Lipid": [
+		{
+			"langCode": "it",
+			"label": "Lipidi",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Lipids",
+			"alternateLabels": []
+		}
+	],
+	"Protein": [
+		{
+			"langCode": "en",
+			"label": "Protein",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "it",
+			"label": "Proteine",
+			"alternateLabels": []
+		}
+	],
+	"DietaryFiber": [
+		{
+			"langCode": "en",
+			"label": "Dietary Fiber",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "it",
+			"label": "Fibra Alimentare",
+			"alternateLabels": []
+		}
+	],
+	"LinolenicAcid": [
+		{
+			"langCode": "it",
+			"label": "Acido Linolenico",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Linolenic Acid",
+			"alternateLabels": []
+		}
+	],
+	"MyristoleicAcid": [
+		{
+			"langCode": "it",
+			"label": "Acido Miristoleico",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Myristoleic Acid",
+			"alternateLabels": []
+		}
+	],
+	"Sodium": [
+		{
+			"langCode": "it",
+			"label": "Sodio",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Sodium",
+			"alternateLabels": []
+		}
+	],
+	"Lysine": [
+		{
+			"langCode": "it",
+			"label": "Lisina",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Lysine",
+			"alternateLabels": []
+		}
+	],
+	"Nutrient": [
+		{
+			"langCode": "en",
+			"label": "Nutrient",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "it",
+			"label": "Nutriente",
+			"alternateLabels": []
+		}
+	],
+	"VitaminE": [
+		{
+			"langCode": "en",
+			"label": "Vitamin E",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "it",
+			"label": "Vitamina E",
+			"alternateLabels": []
+		}
+	],
+	"VitaminD": [
+		{
+			"langCode": "en",
+			"label": "Vitamin D",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "it",
+			"label": "Vitamina D",
+			"alternateLabels": []
+		}
+	],
+	"VitaminC": [
+		{
+			"langCode": "en",
+			"label": "Vitamin C",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "it",
+			"label": "Vitamina C",
+			"alternateLabels": []
+		}
+	],
+	"AsparticAcid": [
+		{
+			"langCode": "it",
+			"label": "Acido Aspartico",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Aspartic Acid",
+			"alternateLabels": []
+		}
+	],
+	"Calcium": [
+		{
+			"langCode": "it",
+			"label": "Calcio",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Calcium",
+			"alternateLabels": []
+		}
+	],
+	"Vitamin": [
+		{
+			"langCode": "en",
+			"label": "Vitamin",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "it",
+			"label": "Vitamine",
+			"alternateLabels": []
+		}
+	],
+	"VegetableLipid": [
+		{
+			"langCode": "it",
+			"label": "Lipidi Vegetali",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Vegetable Lipids",
+			"alternateLabels": []
+		}
+	],
+	"Proline": [
+		{
+			"langCode": "it",
+			"label": "Prolina",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Proline",
+			"alternateLabels": []
+		}
+	],
+	"EicosenoicAcid": [
+		{
+			"langCode": "it",
+			"label": "Acido Eicosenoico",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Eicosenoic Acid",
+			"alternateLabels": []
+		}
+	],
+	"Iron": [
+		{
+			"langCode": "it",
+			"label": "Ferro",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Iron",
+			"alternateLabels": []
+		}
+	],
+	"AnimalLipid": [
+		{
+			"langCode": "en",
+			"label": "Animal Lipids",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "it",
+			"label": "Lipidi Animali",
+			"alternateLabels": []
+		}
+	],
+	"Leucine": [
+		{
+			"langCode": "it",
+			"label": "Leucina",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Leucine",
+			"alternateLabels": []
+		}
+	],
+	"Glycine": [
+		{
+			"langCode": "it",
+			"label": "Glicina",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Glycine",
+			"alternateLabels": []
+		}
+	],
+	"OleicAcid": [
+		{
+			"langCode": "it",
+			"label": "Acido Oleico",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Oleic Acid",
+			"alternateLabels": []
+		}
+	],
+	"Cystine": [
+		{
+			"langCode": "it",
+			"label": "Cistina",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Cystine",
+			"alternateLabels": []
+		}
+	],
+	"Arginine": [
+		{
+			"langCode": "it",
+			"label": "Arginina",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Arginine",
+			"alternateLabels": []
+		}
+	],
+	"ApolarAminoacid": [
+		{
+			"langCode": "it",
+			"label": "Amminoacidi Apolari",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Apolar Aminoacid",
+			"alternateLabels": []
+		}
+	],
+	"Carbs": [
+		{
+			"langCode": "it",
+			"label": "Carboidrati",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Carbs",
+			"alternateLabels": []
+		}
+	],
+	"Sulfur": [
+		{
+			"langCode": "en",
+			"label": "Sulfur",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "it",
+			"label": "Zolfo",
+			"alternateLabels": []
+		}
+	],
+	"Isoleucine": [
+		{
+			"langCode": "it",
+			"label": "Isoleucina",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Isoleucine",
+			"alternateLabels": []
+		}
+	],
+	"Mineral": [
+		{
+			"langCode": "it",
+			"label": "Minerali",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Minerals",
+			"alternateLabels": []
+		}
+	],
+	"VitaminB2": [
+		{
+			"langCode": "en",
+			"label": "Vitamin B2",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "it",
+			"label": "Vitamina B2",
+			"alternateLabels": []
+		}
+	],
+	"Alanine": [
+		{
+			"langCode": "it",
+			"label": "Alanina",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Alanine",
+			"alternateLabels": []
+		}
+	],
+	"ArachidonicAcid": [
+		{
+			"langCode": "it",
+			"label": "Acido Arachidonico",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Arachidonic Acid",
+			"alternateLabels": []
+		}
+	],
+	"FolicAcid": [
+		{
+			"langCode": "it",
+			"label": "Acido Folico",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Folic Acid",
+			"alternateLabels": []
+		}
+	],
+	"VitaminB1": [
+		{
+			"langCode": "en",
+			"label": "Vitamin B1",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "it",
+			"label": "Vitamina B1",
+			"alternateLabels": []
+		}
+	],
+	"Phenylalanine": [
+		{
+			"langCode": "it",
+			"label": "Fenilanina",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Phenylalanine",
+			"alternateLabels": []
+		}
+	],
+	"Chlorine": [
+		{
+			"langCode": "en",
+			"label": "Chlorine",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "it",
+			"label": "Cloro",
+			"alternateLabels": []
+		}
+	],
+	"Starch": [
+		{
+			"langCode": "it",
+			"label": "Amido",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Starch",
+			"alternateLabels": []
+		}
+	],
+	"VitaminB6": [
+		{
+			"langCode": "en",
+			"label": "Vitamin B6",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "it",
+			"label": "Vitamina B6",
+			"alternateLabels": []
+		}
+	],
+	"PolarAminoacid": [
+		{
+			"langCode": "it",
+			"label": "Amminoacidi olari",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Polar Aminoacid",
+			"alternateLabels": []
+		}
+	],
+	"StearicAcid": [
+		{
+			"langCode": "it",
+			"label": "Acido Stearico",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Stearic Acid",
+			"alternateLabels": []
+		}
+	],
+	"Tryptophan": [
+		{
+			"langCode": "it",
+			"label": "Triptofano",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Tryptophan",
+			"alternateLabels": []
+		}
+	],
+	"Phosphorus": [
+		{
+			"langCode": "it",
+			"label": "Fosforo",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Phosphorus",
+			"alternateLabels": []
+		}
+	],
+	"ButyricCaproicCaprylicCapricAcid": [
+		{
+			"langCode": "it",
+			"label": "Somma degli Acidi Butirrico Caproico Caprilico e Caprico",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Sum of Butyric Caproic Caprylic and Capric Acid",
+			"alternateLabels": []
+		}
+	],
+	"RetinolEquivalent": [
+		{
+			"langCode": "en",
+			"label": "Retinol Equivalent",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "it",
+			"label": "Retinolo Equivalente",
+			"alternateLabels": []
+		}
+	],
+	"GlutamicAcid": [
+		{
+			"langCode": "it",
+			"label": "Acido Glutammico",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Glutamic Acid",
+			"alternateLabels": []
+		}
+	],
+	"Cholesterol": [
+		{
+			"langCode": "en",
+			"label": "Cholesterol",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "it",
+			"label": "Colesterolo",
+			"alternateLabels": []
+		}
+	],
+	"Fructose": [
+		{
+			"langCode": "en",
+			"label": "Fructose",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "it",
+			"label": "Fruttosio",
+			"alternateLabels": []
+		}
+	],
+	"SaturatedLipid": [
+		{
+			"langCode": "it",
+			"label": "Lipidi Saturi",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Saturated Lipids",
+			"alternateLabels": []
+		}
+	],
+	"Zinc": [
+		{
+			"langCode": "en",
+			"label": "Zinc",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "it",
+			"label": "Zinco",
+			"alternateLabels": []
+		}
+	],
+	"BetaCarotene": [
+		{
+			"langCode": "it",
+			"label": "Beta Carotene",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Beta-Carotene",
+			"alternateLabels": []
+		}
+	],
+	"Lactose": [
+		{
+			"langCode": "en",
+			"label": "Lactose",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "it",
+			"label": "Lattosio",
+			"alternateLabels": []
+		}
+	],
+	"Valine": [
+		{
+			"langCode": "it",
+			"label": "Valina",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Valine",
+			"alternateLabels": []
+		}
+	],
+	"Aminoacid": [
+		{
+			"langCode": "en",
+			"label": "Aminoacid",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "it",
+			"label": "Amminoacidi",
+			"alternateLabels": []
+		}
+	],
+	"VegetalProtein": [
+		{
+			"langCode": "it",
+			"label": "Proteine Vegetali",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Vegetal Protein",
+			"alternateLabels": []
+		}
+	],
+	"BehenicAcid": [
+		{
+			"langCode": "it",
+			"label": "Acido Beenico",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Behenic Acid",
+			"alternateLabels": []
+		}
+	],
+	"CarbsSoluble": [
+		{
+			"langCode": "it",
+			"label": "Carboidrati Solubili",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Soluble Carbs",
+			"alternateLabels": []
+		}
+	],
+	"Serina": [
+		{
+			"langCode": "en",
+			"label": "Serina",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "it",
+			"label": "Serina",
+			"alternateLabels": []
+		}
+	],
+	"Galactose": [
+		{
+			"langCode": "en",
+			"label": "Galactose",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "it",
+			"label": "Galattosio",
+			"alternateLabels": []
+		}
+	],
+	"Potassium": [
+		{
+			"langCode": "it",
+			"label": "Potassio",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "en",
+			"label": "Potassium",
+			"alternateLabels": []
+		}
+	],
+	"Manganese": [
+		{
+			"langCode": "en",
+			"label": "Manganese",
+			"alternateLabels": []
+		},
+		{
+			"langCode": "it",
+			"label": "Manganese",
+			"alternateLabels": []
+		}
+	]
+}

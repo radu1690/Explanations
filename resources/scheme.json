@@ -1,0 +1,10 @@
+{
+    "entity": "explanation.entity",
+    "timing": "explanation.timing",
+    "quantity": "explanation.quantity",
+    "expectedQuantity": "explanation.expectedQuantity",
+    "constraint": "explanation.constraint",
+    "nutrient": "explanation.nutrient",
+    "consequence": "explanation.consequence",
+    "alternative": "explanation.alternative"
+}

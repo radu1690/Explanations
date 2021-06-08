@@ -1,0 +1,13 @@
+|Did you know that
+|!{ explanation.entity } 
+- if (pluralize.isSingular(explanation.entity) )
+	|contains
+- if (pluralize.isPlural(explanation.entity) )
+	|contain
+|!{ explanation.nutrient } 
+if explanation.constraint == 'greater'
+	|that can help
+if explanation.constraint == 'less'
+	|that can cause
+|!{ explanation.consequence } 
+|?

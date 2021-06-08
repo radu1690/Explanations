@@ -1,0 +1,252 @@
+{
+	"Meat": {
+		"positive": [],
+		"negative": ["AnimalProtein", "Cholesterol", "AnimalLipid"],
+		"alternatives": ["LegumesAndLegumeProducts", "Fish", "Cheese", "Eggs", "Vegetables","Suggestion"],
+		"opposites": ["Suggestion"]
+	},
+	
+	"WhiteMeat": {
+		"positive": [],
+		"negative": ["AnimalProtein", "Cholesterol", "AnimalLipid"],
+		"alternatives": ["LegumesAndLegumeProducts", "Fish", "Cheese", "Eggs", "Vegetables", "Suggestion"],
+		"opposites": ["Suggestion"]
+	},
+	"RedMeat": {
+		"positive": [],
+		"negative": ["AnimalProtein", "Cholesterol", "AnimalLipid"],
+		"alternatives": ["LegumesAndLegumeProducts", "Fish", "Cheese", "Eggs", "Vegetables", "Suggestion"],
+		"opposites": ["Suggestion"]
+	},
+
+	"SausagesAndColdCuts": {
+		"positive": [],
+		"negative": ["AnimalProtein", "Cholesterol", "AnimalLipid"],
+		"alternatives": ["LegumesAndLegumeProducts", "Fish", "Cheese", "Eggs", "Vegetables","Suggestion"],
+		"opposites": ["Suggestion"]
+	},
+
+	"Cheese": {
+		"positive": ["Calcium","Protein","VitaminD"],
+		"negative": ["Cholesterol", "SaturatedLipid"],
+		"alternatives": ["LegumesAndLegumeProducts", "Fish", "WhiteMeat", "Eggs", "Milk", "Yogurt", "Suggestion"],
+		"opposites": ["Suggestion"]
+
+	},
+	
+	
+	"FreshCheese": {
+		"positive": ["Calcium","AnimalProtein","Phosphorus","VitaminD"],
+		"negative": ["Cholesterol", "SaturatedLipid","AnimalLipid"],
+		"alternatives": ["LegumesAndLegumeProducts", "Fish", "WhiteMeat", "Eggs", "Milk", "Yogurt"],
+		"opposites": ["Suggestion"]
+
+	},
+
+	"AgedCheese": {
+
+		"positive": ["Calcium","AnimalProtein","Phosphorus","VitaminD"],
+		"negative": ["Cholesterol", "SaturatedLipid","AnimalLipid"],
+		"alternatives": ["LegumesAndLegumeProducts", "Fish", "WhiteMeat", "Eggs", "Milk", "Yogurt","Suggestion"],
+		"opposites": ["Suggestion"]
+
+	},
+	
+	"FOOD-1726": {
+		"positive":  [],
+		"negative": ["Lipid"],
+		"alternatives": ["LegumesAndLegumeProducts", "Fish", "WhiteMeat", "Eggs", "Milk", "Yogurt","Suggestion"],
+		"opposites": ["Suggestion"]
+
+	},
+	
+	"Vegetables": {
+		"positive": ["Magnesium", "VitaminE", "DietaryFiber", "VitaminA", "Iron", "VitaminC"],
+		"negative": [],
+		"alternatives": ["Suggestion"],
+		"opposites": ["Suggestion"]
+
+	},
+	"Fruits": {
+		"positive": ["Mineral", "DietaryFiber", "VitaminE", "VitaminC", "VitaminA"],
+		"negative": [],
+		"alternatives": ["Suggestion"],
+		"opposites": ["SugarAndSweets", "SweetBeveragesAndJuice","Suggestion"]
+	},
+
+	"FishAndSeafood": {
+		"positive": ["PolyunsaturatedLipid", "MonounsaturatedLipid", "VitaminA"],
+		"negative": [],
+		"alternatives": ["Meat", "Cheese", "SausageAndColdCuts", "Eggs", "Suggestion"],
+		"opposites": ["Suggestion"]
+	},
+
+	"SugarAndSweets": {
+		"positive": [],
+		"negative": ["Sucrose", "SaturatedLipid"],
+		"alternatives": ["Fruits", "Yogurt","Suggestion"],
+		"opposites": ["Suggestion"]
+
+	},
+	"SugarAndSweeteners": {
+		"positive": [],
+		"negative": ["Sucrose"],
+		"alternatives": ["Fruits", "Yogurt","Suggestion"],
+		"opposites": ["Suggestion"]
+
+	},
+	"SweetBeveragesAndJuices": {
+		"positive": [],
+		"negative": ["Sucrose"],
+		"alternatives": ["Fruits", "Yogurt","Suggestion"],
+		"opposites": ["Suggestion"]
+
+	},
+	
+	"AlcoholicBeverages": {
+		"positive": [],
+		"negative": ["Sucrose"],
+		"alternatives": ["Fruits", "Yogurt"],
+		"opposites": []
+
+	},
+
+	"Wine": {
+		"positive": [],
+		"negative": ["Sucrose"],
+		"alternatives": ["Suggestion"],
+		"opposites": ["Suggestion"]
+
+	},
+	"Beer": {
+		"positive": [],
+		"negative": ["Sucrose"],
+		"alternatives": ["Fruits", "Yogurt", "Juice"],
+		"opposites": []
+
+	},
+	
+	"SpiritAndLiquor": {
+		"positive": [],
+		"negative": ["Sucrose"],
+		"alternatives": ["Fruits", "Yogurt", "Juice"],
+		"opposites": []
+
+	},
+
+	"LegumesAndLegumeProducts": {
+		"positive": ["VegetalProtein", "Iron","Mineral","DietaryFiber"],
+		"negative": [],
+		"alternatives": ["Suggestion"],
+		"opposites": ["Fish", "Meat", "Cheese", "Eggs","Suggestion"]
+	},
+
+	"ProcessedLegumes": {
+		"positive": ["VegetalProtein", "Iron","Mineral","DietaryFiber"],
+		"negative": [""],
+		"alternatives": ["Suggestion"],
+		"opposites": ["Fish", "Meat", "Cheese", "Eggs"]
+	},
+	
+	"FreshLegumes": {
+		"positive": ["VegetalProtein", "Iron", "Mineral","DietaryFiber"],
+		"negative": [""],
+		"alternatives": ["Suggestion"],
+		"opposites": ["Fish", "Meat", "Cheese", "Eggs","Suggestion"]
+	},
+
+	"Eggs": { 
+		"positive": ["Protein"],
+		"negative": ["Lipid","Cholesterol"],
+		"alternatives": ["Fish", "Meat", "Cheese", "Eggs","Suggestion"],
+		"opposites": ["Suggestion"]
+	},
+
+	"VegetalEVOOils": {
+		"positive": ["MonounsaturatedLipid", "PolyunsaturatedLipid", "VitaminE"],
+		"negative": ["Lipid"],
+		"alternatives": ["Suggestion"],
+		"opposites": ["FatsAndOils", "Butter", "Mayonnaise", "Margarine","Suggestion"]
+},
+	"FatsAndOils": {
+		"positive": [],
+		"negative": ["Lipid"],
+		"alternatives": ["Suggestion", "FOOD-702901"],
+		"opposites": ["Suggestion"]
+	},
+	
+	"FOOD-51": {
+		"positive": ["DietaryFiber", "Carbs"],
+		"negative": [],
+		"alternatives": ["FOOD-381","Suggestion"],
+		"opposites": ["Suggestion"]
+
+	},
+	
+	"FOOD-381": {
+		"positive": ["DietaryFiber", "Carbs"],
+		"negative": ["Starch"],
+		"alternatives": ["Bread", "Pasta","Suggestion"],
+		"opposites": ["Suggestion"]
+
+	},
+	
+ 	 "Bread": {
+		"positive": ["DietaryFiber", "Carbs"],
+		"negative": [],
+		"alternatives": ["FOOD-381", "CerealsAndGrainProducts","Suggestion"],
+		"opposites": ["Suggestion"]
+
+	},
+
+	"Cereals": {
+		"positive": ["DietaryFiber", "Carbs"],
+		"negative": [],
+		"alternatives": ["FOOD-381"],
+		"opposites": ["Suggestion"]
+
+	},
+	"CerealsAndGrainProducts": {
+		"positive": ["DietaryFiber", "Carbs"],
+		"negative": [],
+		"alternatives": ["Pasta","FOOD-084","Suggestion"],
+		"opposites": ["Suggestion"]
+
+	},
+	"Pasta": {
+		"positive": ["DietaryFiber", "Carbs"],
+		"negative": [],
+		"alternatives": ["FOOD-381","Rice", "FOOD-084","Suggestion"],
+		"opposites": ["FOOD-381","Rice", "FOOD-084","Suggestion"]
+
+	},
+	"Rice": {
+		"positive": ["DietaryFiber", "Carbs"],
+		"negative": [],
+		"alternatives": ["FOOD-381","Pasta", "FOOD-084"],
+		"opposites": ["FOOD-381","Pasta", "FOOD-084"]
+	},
+
+	"PizzaAndFocacciaBread": {
+		"positive": ["DietaryFiber", "Carbs"],
+		"negative": [],
+		"alternatives": ["FOOD-381","Rice", "Bread" ,"Pasta","Suggestion"],
+		"opposites": ["FOOD-381","Rice", "Bread","Pasta","Suggestion"]
+
+	},
+
+	"MilkAndYogurt": {
+
+		"positive": ["Calcium", "VitaminD"],
+		"negative": [],
+		"alternatives": ["Cheese", "Suggestion"],
+		"opposites": ["Suggestion"]
+	},
+
+	"Nuts": {
+		"positive": ["PolyunsaturatedLipid", "VitaminE", "FolicAcid", "Zinc"],
+		"negative": [],
+		"alternatives": ["Fruits","Suggestion"],
+		"opposites": ["SugarAndSweets","Suggestion"]
+	}
+}

@@ -1,0 +1,27 @@
+{
+  "name": "explanations",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radu1690/Explanations.git"
+  },
+  "keywords": [
+    "explanations"
+  ],
+  "author": "Radu Loghin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/radu1690/Explanations/issues"
+  },
+  "homepage": "https://github.com/radu1690/Explanations#readme",
+  "dependencies": {
+    "json-query": "^2.2.2",
+    "pluralize": "^8.0.0",
+    "rosaenlg": "^3.0.0"
+  }
+}
