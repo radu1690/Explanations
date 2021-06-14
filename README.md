@@ -87,7 +87,7 @@ will output: ```You ate red meat.```
 ## Conditionals
 If-else statements are used like in the following example where _entity.enLabel=meat_ and _constraint=less_:
 ```
-if explanation.constraint == 'greater'
+if explanation.constraint == 'less'
 	|You ate too much,
 	|enough 
 else 
