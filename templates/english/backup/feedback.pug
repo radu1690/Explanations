@@ -3,15 +3,15 @@ if explanation.timing == 'Day'
 if explanation.timing == 'Week'
 	|This week
 if explanation.constraint == 'greater'
-	|you didn't consume enough
+	|you did not consume enough
 if explanation.constraint == 'less'
 	|you consumed a lot of
-|!{ explanation.entity } 
+|#[+value(explanation.entity.enLabel)]
 |(
-|!{ explanation.quantity } 
+|#[+value(explanation.quantity)]
 if explanation.constraint == 'greater'
 	|of minimum
 if explanation.constraint == 'less'
-	|of maximum
-|!{ explanation.expectedQuantity } 
-|).
+	|of maximum 
+|#[+value(explanation.expectedQuantity)]
+|)

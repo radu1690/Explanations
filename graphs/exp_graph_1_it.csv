@@ -1,0 +1,31 @@
+explanation	explanationId	explanation_1yFZqe9kJrDmM0SC349QJ3X7loEAL6TZw7aMLhhphpl5z78051_MR-DIET-018-NWEEK_1541622487915
+explanation	user	1yFZqe9kJrDmM0SC349QJ3X7loEAL6TZw7aMLhhphpl5z78051
+explanation	ruleId	MR-DIET-018-NWEEK
+explanation	timestamp	1541622487915
+explanation	startTime	1541440506117
+explanation	endTime	1541622487915
+explanation	entityType	FOODCATEGORY
+explanation	entity	RedMeat
+RedMeat	itLabel	Carne Rossa
+RedMeat	negative	AnimalProtein
+RedMeat	negative	AnimalLipid
+AnimalLipid	itLabel	Lipidi Animali
+AnimalLipid	cons_it	all'aumento del rischio di malattie cardiache
+AnimalLipid	cons_it	all'aumento del colesterolo nel sangue
+AnimalProtein	itLabel	Proteine Animali
+AnimalProtein	cons_it	all'aumento di problemi artritici
+AnimalProtein	cons_it	all'aumento del rischio di malattie tumorali
+RedMeat	alternatives	LegumesAndLegumeProducts
+RedMeat	alternatives	Fish
+Fish	itLabel 	Pesce
+LegumesAndLegumeProducts	itLabel	Legumi Confezionati e Lavorati
+explanation	timing	Week
+explanation	quantity	3
+explanation	expectedQuantity	2
+explanation	meals	MEAL-meal-1541440506117
+explanation	meals	MEAL-meal-1541440506118
+explanation	goals	SP-GOAL-D-114
+explanation	priority	1
+explanation	level	3
+explanation	constraint	less
+explanation	history	1

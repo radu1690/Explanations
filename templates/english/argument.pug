@@ -1,13 +1,12 @@
-|Did you know that
-|!{ explanation.entity}
-if pluralize.isSingular(explanation.entity)
+- let nutrient = random(explanation.entity.negative)
+- let consequence = random(nutrient.cons_en)
+
+|#[+value(explanation.entity.enLabel)]
+if (pluralize.isSingular(explanation.entity.enLabel) )
 	|contains
-if pluralize.isPlural(explanation.entity)
+if (pluralize.isPlural(explanation.entity.enLabel) )
 	|contain
-|!{ explanation.nutrient } 
-if explanation.constraint == 'greater'
-	|that can help
-if explanation.constraint == 'less'
-	|that can cause
-|!{ explanation.consequence } 
-|?
+|#[+value(nutrient.enLabel)]
+|which can cause
+|#[+value(consequence)]
+|!

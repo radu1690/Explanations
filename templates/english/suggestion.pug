@@ -1,4 +1,7 @@
-if explanation.alternative == 'null'
-	|Next time be more careful and remember to eat healthy
-if explanation.alternative != 'null'
-	|Next time try with some !{explanation.alternative}
+- let alternative = random(explanation.entity.alternatives)
+|Next time
+if alternative == 'null'
+	|be more careful and remember to eat healthy!
+else
+	|try to alternate with #[+value(alternative.enLabel)]
+|.

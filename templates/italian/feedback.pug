@@ -6,12 +6,12 @@ if explanation.constraint == 'greater'
 	|non hai consumato abbastanza
 if explanation.constraint == 'less'
 	|hai consumato una grande quantità di
-|!{ explanation.entity } 
+|#[+value(explanation.entity.itLabel)] 
 |(
-|!{ explanation.quantity } 
+|#[+value(explanation.quantity)] 
 if explanation.constraint == 'greater'
 	|su un minimo di
 if explanation.constraint == 'less'
 	|su un massimo di 
-|!{ explanation.expectedQuantity } 
+|#[+value(explanation.expectedQuantity)] 
 |)

@@ -1,5 +1,7 @@
+- let alternative = random(explanation.entity.alternatives)
 |La prossima volta
-if explanation.alternative == 'null'
+if alternative == 'null'
 	|cerca di fare piu attenzione e ricorda di mangiare in modo sano!
-if explanation.alternative != 'null'
-	|prova ad alternare con del/della !{explanation.alternative}
+else
+	|prova ad alternare con #[+value(alternative.itLabel)]
+|.

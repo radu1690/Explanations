@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/radu1690/Explanations#readme",
   "dependencies": {
-    "json-query": "^2.2.2",
+    "csv-parse": "^4.16.0",
+    "graphlib": "^2.1.8",
     "pluralize": "^8.0.0",
     "rosaenlg": "^3.0.0"
   }
