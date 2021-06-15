@@ -121,6 +121,50 @@ function main(csvPath){
     
 }
 
+
+function test(csvPath){
+  var data = []
+  fs.createReadStream(csvPath)
+    .pipe(parse({ delimiter: delimiter }))
+    .on('data', (r) => {
+      //console.log(r);
+      data.push(r);        
+    })
+    .on('end', () => {
+      //console.log(data);
+      count = 0;
+      graphName = data[0][0]
+      
+      var a = data[0]
+      
+      for (d of data){
+        d[0] = d[0].toLowerCase()
+        //d[1] = d[1].toLowerCase()
+        d[2] = d[2].toLowerCase()
+        //from
+        if(graph.node(d[0])==null){
+        graph.setNode(d[0], new Label(d[0], d[0]))
+        }
+        
+        //to
+        //avoid identical numerical nodes and cycles
+        if(isNaN(d[2]) && d[0]!=d[2]){
+            graph.setNode(d[2], new Label(d[1], d[2]))
+            graph.setEdge(d[0], d[2]) 
+        }else{
+            graph.setNode(count, new Label(d[1], d[2]))
+            graph.setEdge(d[0], count) 
+            count++
+        }
+      }
+
+
+      var e = graphToObject(graph)
+      console.log(e)
+    })
+    
+}
+
 module.exports = {main}
 
-//main("graphs/exp_graph_1_it.csv")
+//test("graphs/exp_graph_1_it.csv")
