@@ -1,0 +1,32 @@
+if explanation.entity.negative != null
+    |Le conseguenze a lungo termine di un consumo eccessivo di !{explanation.entity.itLabel} possono essere:
+    if Array.isArray(explanation.entity.negative)
+        eachz negative in explanation.entity.negative with { separator: ',',}
+            if Array.isArray(negative.cons_it)
+                eachz consequence in negative.cons_it with { separator: ','}
+                    |!{consequence}
+            else
+                |!{negative.cons_it}
+    else
+        if Array.isArray(explanation.entity.negative.cons_it)
+            eachz consequence in explanation.entity.negative.cons_it with { separator: ','}
+                    |!{consequence}
+        else
+            |!{explanation.entity.negative.cons_it}
+    |.
+if explanation.entity.positive !=null
+    |The long-term benefits of a regular assumption of !{explanation.entity.itLabel} can be:
+    if Array.isArray(explanation.entity.positive)
+        eachz positive in explanation.entity.positive with { separator: ',',}
+            if Array.isArray(positive.cons_it)
+                eachz consequence in positive.cons_it with { separator: ','}
+                    |!{consequence}
+            else
+                |!{positive.cons_it}
+    else
+        if Array.isArray(explanation.entity.positive.cons_it)
+            eachz consequence in explanation.entity.positive.cons_it with { separator: ','}
+                    |!{consequence}
+        else
+            |!{explanation.entity.positive.cons_it}
+    |.
