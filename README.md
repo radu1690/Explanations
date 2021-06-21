@@ -1,7 +1,9 @@
 # ExplanationsGraph
 This is a simple program that retrieves the information from an explanation graph and uses [RosaeNLG](https://rosaenlg.org/) and [Pug templates](https://pugjs.org/) to generate text.  
 
-## Installation
+## Installation  
+Install [NodeJs](https://nodejs.org/en/download/)  
+
 Clone the repository and install dependecies
 ```
 git clone https://github.com/radu1690/Explanations.git
@@ -13,7 +15,7 @@ You can run the program with:
 ```
 node explanations.js <template> <graph>
 ``` 
-Template is the location of the pug template while graph is a graph in csv format (with "," as delimiter). Example:  
+Template is the location of the pug template while graph is a graph in csv format (with "\t" as delimiter). Example:  
 ```
 node explanations.js templates/english/argument.pug graphs/exp_graph_1_en.csv
 ``` 
@@ -23,7 +25,35 @@ You can specify the language, English or Italian (the default is English), like 
 node explanations.js templates/italian/feedback.pug graphs/exp_graph_1_it.csv italian
 ```  
 
-# Basic Tutorial for Templates
+## Graphviz
+You can generate a visual reppresentation of a graph with [Graphviz](https://graphviz.org/).  
+Install requirements:
+```
+!apt-get install graphviz graphviz-dev
+!pip install pygraphviz
+```
+
+The graph must be in a csv file with ```\t``` delimiter.  
+
+Run with: 
+```python graphviz.py <graph> ```  
+
+Example:
+```
+!python graphviz.py graphs/exp_graph_1_en.csv
+```
+will generate a pdf file named exp_graph_1_en.pdf with the reppresentation of the graph.
+
+# Explanation graph format
+The graphs are stored in csv file (with \t delimiter) where each row contains a triple in the form of "subject - predicate - object": subject is the parent node, object is the child node and predicate is the arc label.  
+In every graph the following must be true:
+* the subject of the first row is the head node of the graph
+* the graph does not contain cycles
+* a child node has only one parent node
+
+# Basic templates and RosaeNLG tutorial
+For all the features in Pug templates you can check the [Pug main website](https://pugjs.org/).  
+A complete tutorial with advanced features of RosaeNLG can be found [here](https://rosaenlg.org/rosaenlg/3.0.0/tutorials/tutorial_en_US.html).
 ## Plain text
 To insert some plain text you can use the pipe character (`|`) followed by the text you want to write:  
 ```
@@ -40,42 +70,7 @@ Spaces between different plain texts (except only punctuation) are automatically
 will still output: ```Hello world!``` 
 
 ## Variables  
-The object passed to RosaeNLG (after the graph has been processed) is an explanation. The following is the object generated from graphs/exp_graph_1_en.csv:
-```
-{
-  timestamp: '1541622487915',
-  startTime: '1541440506117',
-  endTime: '1541622487915',  
-  quantity: '3',
-  expectedQuantity: '2',     
-  priority: '1',
-  level: '3',
-  history: '1',
-  explanationId: 'explanation_1yfzqe9kjrdmm0sc349qj3x7loeal6tzw7amlhhphpl5z78051_mr-diet-018-nweek_1541622487915',
-  user: '1yfzqe9kjrdmm0sc349qj3x7loeal6tzw7amlhhphpl5z78051',
-  ruleId: 'mr-diet-018-nweek',
-  entityType: 'foodcategory',
-  entity: {
-    enLabel: 'red meat',
-    negative: [
-        {   enLabel: 'animal protein', 
-            cons_en: [ 'intestinal inflammation', 'the increment of cancer risk' ] 
-        },
-        {   enLabel: 'animal lipids',
-            cons_en: [
-                'increment of cardiovascular disease risk',
-                'increment of cholesterol in the blood'
-            ]
-        }
-    ],
-    alternatives: [ { enLabel: 'processed legumes' }, { enLabel: 'fish' } ]
-  },
-  timing: 'week',
-  meals: [ 'meal-meal-1541440506117', 'meal-meal-1541440506118' ],
-  goals: 'sp-goal-d-114',
-  constraint: 'less'
-}
-```
+The object passed to RosaeNLG (after the graph has been processed) is an explanation.  
 To print a field, you write ```#[+value(explanation.field)]``` or ```!{explanation.field}```. For example, the value of explanation.entity.enLabel is "red meat":  
 ```
 |You ate #[+value(explanation.entity.enLabel)].
@@ -98,7 +93,7 @@ else
 will output: ```You ate too much, enough meat!```  
 Note that to use an explanation field in an if-else statement you must not use the ```#[+value()]``` or the ```!{}``` notation.  
 
-## Javascript code and Functions
+## Javascript code, iteration and functions
 You can write javascript code in a template by starting the line with the "```-```" character,for example here i declare two variables and then I use them in the template:
 ```
 - let nutrient = "cheese"
@@ -107,6 +102,26 @@ You can write javascript code in a template by starting the line with the "```-`
 |the !{food} contains a lot of !{nutrient}
 ```
 This will output ```The pie contains a lot of cheese```
+
+## Iteration
+You can do loop with the ```eachz``` operator from RosaeNLG:
+```
+-let data = ["fruits", "vegetables", "meat"]
+eachz element in data
+    |!{data}
+```
+will output: ```fruits vegetables meat```
+
+The ```eachz``` operator can accept some [parameters](https://rosaenlg.org/rosaenlg/3.0.0/mixins_ref/eachz_itemz.html) which are useful in Natural Language Generation. Example:
+```
+-let data = ["fruits", "vegetables", "meat"]
+|I bought
+eachz element in data with {separator: ",", last_separator: "and", end: "."} 
+    |!{element}
+```
+will output: ```I bought fruits, vegetables and meat.```
+
+## Functions
 ### Pluralize
 You can use ```pluralize.isSingular()``` and ```pluralize.isPlural()``` in a template to check if a word is either singular or plural. Example:  
 ```
@@ -124,31 +139,9 @@ The random function will return a random element of an array (if the argument is
 - let consequence = random(nutrient.cons_en)
 ```
 
-You can also add your own functions to pug (this is explained bellow in the RosaeNLG tutorial)  
-
-For other advanced features in Pug you can check the [Pug main website](https://pugjs.org/).  
-
-# RosaeNLG tutorial
-A complete tutorial with advanced features can be found [here](https://rosaenlg.org/rosaenlg/3.0.0/tutorials/tutorial_en_US.html)
-## Import library
-```
-var rosae = require('rosaenlg');
-```  
-
-## Usage
-```
-var output = rosae.renderFile(dir_template, {
-        language: 'en_US',
-        explanation: processedGraph,
-        pluralize: pluralize
-    });
-```
-```dir_template``` is the location of the pug template.  
-```language``` is the locale code of the language to be used by RosaeNLG.  
-The rest are data (objects or arrays) and functions to be used in the template. Here I pass the function ```pluralize``` and the object called ```processedGraph``` in my js file which will be accessible as ```!{explanation}``` in the template.  
-
-## Functions example
-If I want to use my own function from the template which for example will print the input text two times, I can do it like this:
+## Functions customization
+You can also add your own javascript functions to use in pug templates.  
+Here I create a function in my JS file which will print the input text two times and then I pass it to RosaeNLG:
 ### JS file
 ```
 var rosae = require('rosaenlg');
@@ -160,14 +153,12 @@ function customFunction(input){
 
 console.log( rosae.renderFile('testNLG.pug', {
     language: 'en_US',
-    data: ['apples', 'bananas', 'apricots'],
     double : customFunction
 }) );
 ```  
 ### PUG template testNLG.pug
 ```
+-let data = ['apples', 'bananas', 'apricots']
 |!{double(data[0])}
 ```  
 This will output: ```Apples apples```. 
-
-

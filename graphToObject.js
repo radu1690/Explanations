@@ -30,8 +30,8 @@ function graphToObject(graph){
   }
   var nodes = graphlib.alg.postorder(graph, graphName)
   //console.log(nodes)
-  var json = {}
-  var f = false
+  /* var json = {}
+  var f = false */
   for (n in nodes){
     //console.log(graph.node(nodes[n]))
     //console.log(graph.successors(nodes[n]))
@@ -41,10 +41,10 @@ function graphToObject(graph){
       //console.log(graph.node(nodes[n]))
       //this is object
       var children = graph.successors(nodes[n])
-      if(f){
+      /* if(f){
         console.log(children)
         f=false;
-      }
+      } */
       var obj = {}
       for (child in children){
         //console.log(graph.node(children[child]))
