@@ -17,7 +17,7 @@ AnimalProtein	cons_it	all'aumento di problemi artritici
 AnimalProtein	cons_it	all'aumento del rischio di malattie tumorali
 RedMeat	alternatives	LegumesAndLegumeProducts
 RedMeat	alternatives	Fish
-Fish	itLabel 	Pesce
+Fish	itLabel	Pesce   
 LegumesAndLegumeProducts	itLabel	Legumi Confezionati e Lavorati
 explanation	timing	Week
 explanation	quantity	3

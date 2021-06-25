@@ -108,7 +108,7 @@ You can do loop with the ```eachz``` operator from RosaeNLG:
 ```
 -let data = ["fruits", "vegetables", "meat"]
 eachz element in data
-    |!{data}
+	|!{data}
 ```
 will output: ```fruits vegetables meat```
 
@@ -117,13 +117,15 @@ The ```eachz``` operator can accept some [parameters](https://rosaenlg.org/rosae
 -let data = ["fruits", "vegetables", "meat"]
 |I bought
 eachz element in data with {separator: ",", last_separator: "and", end: "."} 
-    |!{element}
+	|!{element}
 ```
 will output: ```I bought fruits, vegetables and meat.```
 
 ## Functions
+You can use javascript functions directly in templates. You can either use libraries or create you own functions.  
+We added Pluralize and Random functions.
 ### Pluralize
-You can use ```pluralize.isSingular()``` and ```pluralize.isPlural()``` in a template to check if a word is either singular or plural. Example:  
+[Pluralize](https://www.npmjs.com/package/pluralize) is a library which can pluralize and singularize any given word. Use ```pluralize(<word>)``` or ```pluralize.singular(<word>)``` in a template to either pluralize or singularize a word. Use ```pluralize.isSingular()``` and ```pluralize.isPlural()``` to check if a word is either singular or plural. Example:  
 ```
 if pluralize.isSingular(explanation.entity)
 	|contains
@@ -133,32 +135,38 @@ else
 This will output ```contains``` if the entity field is singular or ```contain``` if the entity field is plural.  
 
 ### Random
-The random function will return a random element of an array (if the argument is an array) or the argument if it is not an array.  
+Random is a custom function which returns a random element of an array (if the argument is an array) or the argument if it is not an array.  
 ```
 - let nutrient = random(explanation.entity.negative)
 - let consequence = random(nutrient.cons_en)
 ```
 
-## Functions customization
-You can also add your own javascript functions to use in pug templates.  
-Here I create a function in my JS file which will print the input text two times and then I pass it to RosaeNLG:
-### JS file
+## How to add a function
+Here is the example of how I added the Random function.  
+First you declare your function in explanations.js:
 ```
-var rosae = require('rosaenlg');
-
-function customFunction(input){
-    text = input + " " + input
-    return text
+function randomElement(items){
+    if(Array.isArray(items)){
+        return items[Math.floor(Math.random()*items.length)]
+    }else{
+        return items
+    }
 }
-
-console.log( rosae.renderFile('testNLG.pug', {
-    language: 'en_US',
-    double : customFunction
-}) );
-```  
-### PUG template testNLG.pug
 ```
--let data = ['apples', 'bananas', 'apricots']
-|!{double(data[0])}
-```  
-This will output: ```Apples apples```. 
+Then you pass it to RosaeNLG in graph2Object.main function (again in Explanations.js):
+```
+graph2Object.main(dir_explanationGraph)
+	.then(data =>{
+		var output = rosaenlgPug.renderFile(dir_template, {
+			language: rosae_language,
+			explanation: data,
+			pluralize: pluralize,	//pluralize function
+			random: randomElement	//random function
+		});
+		console.log(output)
+	})
+```
+Now you can call the function from your pug template:
+```
+- let nutrient = random(explanation.entity.negative)
+```

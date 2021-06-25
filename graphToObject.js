@@ -30,8 +30,6 @@ function graphToObject(graph){
   }
   var nodes = graphlib.alg.postorder(graph, graphName)
   //console.log(nodes)
-  /* var json = {}
-  var f = false */
   for (n in nodes){
     //console.log(graph.node(nodes[n]))
     //console.log(graph.successors(nodes[n]))
@@ -41,10 +39,6 @@ function graphToObject(graph){
       //console.log(graph.node(nodes[n]))
       //this is object
       var children = graph.successors(nodes[n])
-      /* if(f){
-        console.log(children)
-        f=false;
-      } */
       var obj = {}
       for (child in children){
         //console.log(graph.node(children[child]))
@@ -99,7 +93,6 @@ function main(csvPath){
         graph.setNode(d[0], new Label(d[0], d[0]))
         }
         
-        //to
         //avoid identical numerical nodes and cycles
         if(isNaN(d[2]) && d[0]!=d[2]){
             graph.setNode(d[2], new Label(d[1], d[2]))
